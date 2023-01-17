@@ -9,4 +9,4 @@ torch
 gunicorn 
 
 psycopg2
-flask_sqlalch
+flask_sqlalchemy
