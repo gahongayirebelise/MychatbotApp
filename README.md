@@ -37,7 +37,7 @@
   <h3 align="center">A RSSB CHATBOT</h3>
 
   <p align="center">
-    A converation chatbot to server information related to RURA!
+    A conversation chatbot to server information related to RSSB!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -84,17 +84,12 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+Welcome to our government institution's chatbot project! Our goal with this project is to provide a convenient and user-friendly way for visitors to access important information on our website.
+This chatbot has been trained to assist visitors in finding the information they need quickly and efficiently. It can provide information on a wide range of topics, such as government services, policies, and programs. Additionally, it can also provide links to specific pages on our website, such as forms and applications, contact information, and upcoming events.
+One of the key features of this chatbot is its ability to understand natural language, making it easy for visitors to ask questions and receive answers in a conversational format. For example, a visitor can ask "What are the requirements for obtaining a driver's license?" and the chatbot will provide a link to the page on our website that contains the information on driver's license requirements.
+We are constantly updating the chatbot's knowledge base to ensure that it is providing the most accurate and up-to-date information possible. This chatbot is also available 24/7, so visitors can access information whenever it is convenient for them.
+We believe that this chatbot will greatly enhance the user experience on our website and make it easier for visitors to find the information they need. We hope that you find it helpful and we would appreciate your feedback.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,51 +97,47 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section should list all the packages and frameworks used to develop the chatbot.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
+*python
+*Flask
+*pytorch
+*Gunicorn
+*Flask SQL Alchemy
+*language Detect/Detect lang
+*NLTK
+*Numpy
+*Psycopg2
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
+Use the following commands to install and run the chatbot application
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/gahongayirebelise/MychatbotApp.git
    ```
-3. Install NPM packages
+2. Go into the directory
    ```sh
-   npm install
+   cd Mychatbotapp
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Install pip packages
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Start the flask app using gunicorn
+    ```sh
+   gunicorn app:app
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
