@@ -99,15 +99,15 @@ We believe that this chatbot will greatly enhance the user experience on our web
 
 This section should list all the packages and frameworks used to develop the chatbot.
 
-*python
-*Flask
-*pytorch
-*Gunicorn
-*Flask SQL Alchemy
-*language Detect/Detect lang
-*NLTK
-*Numpy
-*Psycopg2
+* python
+* Flask
+* pytorch
+* Gunicorn
+* Flask SQL Alchemy
+* language Detect/Detect lang
+* NLTK
+* Numpy
+* Psycopg2
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
