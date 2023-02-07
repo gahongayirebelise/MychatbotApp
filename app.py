@@ -74,9 +74,9 @@ def predict():
     response, sl = process(text)
     # we jsonify our response
     message = {"answer":response}
-    query = Queries(question=text, answer=response, language=sl)
-    db.session.add(query)
-    db.session.commit()
+#     query = Queries(question=text, answer=response, language=sl)
+#     db.session.add(query)
+#     db.session.commit()
     return jsonify(message)
 if __name__ == "__main__":
     with app.app_context():
