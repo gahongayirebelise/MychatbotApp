@@ -101,6 +101,226 @@
         "Hi there! What can I help you with?",
         "Good [time of day], how can I help you?"
       ]
+    },
+    {
+      "tag": "Monitoring Service Delivery",
+      "patterns": [
+            "regularly monitor service delivery",
+            "compliance with principles of good governance",
+            "public and private sector",
+            "civil society organizations"
+          ],
+      "responses": [
+            "The Rwanda Governance Board regularly monitors service delivery and compliance with the principles of good governance in the public and private sector, as well as in civil society organizations."
+          ]
+        },
+        {
+          "tag": "Conducting Research",
+          "patterns": [
+            "conduct research on governance in Rwanda",
+            "citizens’ perception with service delivery",
+            "disseminate the findings"
+          ],
+          "responses": [
+            "The Rwanda Governance Board conducts research on governance in Rwanda, explores citizens’ perception with service delivery, and disseminates the findings."
+          ]
+        },
+        {
+          "tag": "Homegrown Solutions",
+          "patterns": [
+            "preserve homegrown solutions",
+            "protect homegrown solutions",
+            "promote the use of homegrown solutions",
+            "devise strategies for applying them efficiently"
+          ],
+          "responses": [
+            "The Rwanda Governance Board preserves, protects, and promotes the use of homegrown solutions and devises strategies for applying them efficiently."
+          ]
+        },
+        {
+          "tag": "Pre-Authorization and Follow Up Studies",
+          "patterns": [
+            "pre-authorization studies",
+            "follow up studies",
+            "governance and home grown solutions",
+            "Rwandan or foreigner"
+          ],
+          "responses": [
+            "The Rwanda Governance Board gives pre-authorization and follows up on studies and research carried out in Rwanda on governance and home grown solutions, whether by Rwandan or foreigner."
+          ]
+        },
+        {
+          "tag": "Advising Government on Decentralization and Capacity Development",
+          "patterns": [
+            "implementation of decentralization policy",
+            "capacity development policy",
+            "building capacity of decentralized entities"
+          ],
+          "responses": [
+            "The Rwanda Governance Board advises the government on the implementation of the decentralization and capacity development policy and on activities meant for building the capacity of decentralized entities."
+          ]
+        },
+        {
+          "tag": "Promoting Good Governance and Democracy",
+          "patterns": [
+            "promote principles of good governance",
+            "promote democracy",
+            "performance and quality services delivery",
+            "advise government and other concerned institutions"
+          ],
+          "responses": [
+            "The Rwanda Governance Board promotes the principles of good governance, democracy, performance, and quality services delivery and advises the government and other concerned institutions thereof."
+          ]
+        },
+        {
+          "tag": "Guiding_Principles",
+          "patterns": [
+            "What are the guiding principles of RGB?",
+            "Can you tell me the guiding principles of RGB?",
+            "What are the guiding values of Rwanda Governance Board?"
+          ],
+          "responses": [
+            "The guiding principles of RGB are to promote good governance and quality service delivery in all operations, to promote citizen-centred governance, to be characterized by diligence and expertise, to promote unity and reconciliation among Rwandans, to promote a culture of home-grown innovations in performance and governance, to work through democracy, transparency, dialogue and consultation, to promote a culture of excellence and time management, and to be characterized by integrity and high standards in its functioning."
+          ]
+        },
+        {
+          "tag": "Client_Rights",
+          "patterns": [
+            "What are the rights of clients of RGB?",
+            "Can you list the rights of clients of RGB?",
+            "What are the client's rights at RGB?"
+          ],
+          "responses": [
+            "Our clients have the right to quality and timely services, access information in accordance with the law, timely feedback on requested services, respect and fair treatment, and demand service and file a complaint in case of poor service."
+          ]
+        },
+        {
+          "tag": "Client_Obligations",
+          "patterns": [
+            "What are the obligations of clients of RGB?",
+            "Can you list the obligations of clients of RGB?",
+            "What are the responsibilities of clients towards RGB?"
+          ],
+          "responses": [
+            "Our clients have the following obligations: to fulfill terms and conditions for the service, provide full and transparent disclosure of service-related information, and be cooperative and understanding."
+          ]
+        },
+        {
+          "tag": "services_offered",
+          "patterns": ["what services are offered by RGB?", "What are the services offered by RGB?"
+        ],
+          "responses": ["RGB offers registration of local and international non-governmental organizations, political parties, and faith-based organizations."
+        ]
+        },
+        {
+          "tag": "ngo_registration",
+          "patterns": ["how do I register my NGO?", "What is the procedure to register an NGO?"],
+          "responses": ["The procedures for registering an NGO are available on the RGB website. You can access the services online anytime or visit the Department of CSO & Political Organizations from Monday to Thursday between 7:00 AM and 5:00 PM or on Fridays from 7:00 AM to 3:00 PM. The maximum time for an NGO to get registered is 90 days."
+        ]
+        },
+        {
+          "tag": "ngo_registration_contact",
+          "patterns": ["who do I contact for NGO registration?", "Where can I get help with registering an NGO?"
+        ],
+          "responses": ["You can contact the Head of department of Political Organizations and Civil Society Organizations, Ms. Judith KAZAIRE at 0788305622 or by email at jkazaire@rgb.rw for help with registering an NGO."
+        ]
+        },
+        {
+          "tag": "ngo_registration_requirements",
+          "patterns": ["what are the requirements for registering an NGO?", "What documents are needed to register an NGO?"
+        ],
+          "responses": ["The requirements for registering an NGO are available on the RGB website under the title 'Operational certificate for LNGO'. You can also find related forms on the Irembo Portal and RGB website for all registration-related services."
+        ]
+        },
+        {
+          "tag": "fbo_registration",
+          "patterns": ["how do I register my FBO?", "What is the procedure to register an FBO?"
+        ],
+          "responses": ["The procedures for registering an FBO are available on the RGB website. You can access the services online anytime or visit the Department of CSO & Political Organizations from Monday to Thursday between 7:00 AM and 5:00 PM or on Fridays from 7:00 AM to 3:00 PM. The maximum time for an FBO to get registered is 60 days."
+        ]
+        },
+        {
+          "tag": "fbo_registration_contact",
+          "patterns": ["who do I contact for FBO registration?", "Where can I get help with registering an FBO?"
+        ],
+          "responses": ["You can contact the Head of department of Political Organizations and Civil Society Organizations, Ms. Judith KAZAIRE at 0788305622 or by email at jkazaire@rgb.rw for help with registering an FBO."
+        ]
+        },
+        {
+          "tag": "registration_of_ngo_or_fbo",
+          "patterns": [
+          "how to register a local ngo",
+          "registering an international ngo",
+          "registering a political party",
+          "registering a faith-based organization",
+          "ngo registration process",
+          "fbo registration process"
+          ],
+          "responses": [
+          "To register a local NGO, you can approach the Department of CSO & Political Organizations by emailing ngoregistration@rgb.rw. For FBOs, you can email fbocompliance@rgb.rw for compliance files or fbolp@rgb.rw for registration. For INGOs, you can email ingo@rgb.rw. Online services are available 24/7, while on-site services are available from 7:00 am to 5:00 pm from Monday to Thursday and from 7:00 am to 3:00 pm on Friday. The maximum time for FBO registration is 60 days, while it is 90 days for NGOs. Consult the RGB website (www.rgb.rw) for information on requirements and procedures for accessing the services, as well as the cost of registration and relevant legal instruments."
+          ]
+          },
+        {
+          "tag": "payment_for_goods_and_services",
+          "patterns": [
+          "payment for goods and services",
+          "how to pay for goods and services rendered to rgb",
+          "rgb payment options",
+          "how to make payment to rgb"
+          ],
+          "responses": [
+          "Payment for goods and services rendered to RGB can be made through various options such as mobile money, bank transfer, and cash. You can contact the RGB finance department at finance@rgb.rw for more information on the payment options."
+          ]
+          },
+          {
+          "tag": "complaints_procedure",
+          "patterns": [
+          "complaint procedure for ngo registration",
+          "how to make a complaint about fbo registration",
+          "where to report a complaint about payment for goods and services",
+          "who to contact for complaints about rgb services"
+          ],
+          "responses": [
+          "For any complaints related to the registration of NGOs and FBOs, or payment for goods and services rendered to RGB, you can contact the Head of the Department of Political Organizations and Civil Society Organizations, Ms. Judith KAZAIRE, on 0788305622 or via email at jkazaire@rgb.rw."
+          ]
+          },
+          {
+            "tag": "research_project_pre_authorization",
+            "patterns": [
+              "I want to apply for pre-authorization for research project",
+              "I need to get pre-approval for my research project",
+              "How do I apply for pre-authorization for research project?"
+            ],
+            "responses": [
+              "You can apply for pre-authorization for a governance and home grown solutions research project by visiting the Department of Home Grown Solutions. They are available from Monday to Thursday from 7:00am to 5:00pm and on Fridays from 7:00am to 3:30pm.",
+              "To apply, you need to complete an application form, which can be found on the RGB website (www.rgb.rw), and submit it online along with a detailed research project proposal and CVs of the research team.",
+              "It typically takes at least 14 days from the date of receiving the complete application for the pre-authorization to be granted."
+            ]
+          },
+          {
+          "tag": "additional_information",
+          "patterns": [
+          "more information on ngo registration",
+          "further details on fbo registration",
+          "additional information on payment for goods and services",
+          "where to find more information about rgb services"
+          ],
+          "responses": [
+          "For any additional information related to the services offered by RGB, including registration of NGOs and FBOs and payment for goods and services, you can visit the RGB website (www.rgb.rw) or the Irembo Portal (www.irembo.gov.rw) for related forms."
+          ]
+        },
+          {
+          "tag": "Advising Government on Policies and Strategies",
+          "patterns": [
+            "advise government on policies and strategies",
+            "promotion of excellent performance",
+            "good governance",
+            "enhance country’s development"
+          ],
+          "responses": [
+            "The Rwanda Governance Board advises the government on policies and strategies related."
+          ]
+        }
+      ]
     }
-  ]
-}
+      
