@@ -298,6 +298,235 @@
             ]
           },
           {
+            "tag": "head_of_departments",
+            "patterns": [
+            "Who are the heads of departments at RGB?",
+            "What are the names of the heads of departments at RGB?",
+            "Can you tell me about the heads of departments at RGB?"
+            ],
+            "responses": [
+            "Dr. USENGUMUKIZA Felicien is the Head of Research and Home Grown Solutions Department.",
+            "KAZAIRE Judith is the Head of Civil Society and Political Organisations Department.",
+            "Dr. MUKAMURENZI Solange is the Head of Service Delivery, Good Governance, and JADF Department.",
+            "RUSHINGABIGWI Jean Bosco is the Head of Media Sector Coordination Department."
+            ]
+          },
+          {
+            "tag": "rgb_ceo",
+            "patterns": [
+            "Who is the CEO of RGB?",
+            "Who is the head of RGB?",
+            "Who leads RGB?"
+            ],
+            "responses": [
+            "Dr. KAITESI Usta is the CEO of Rwanda Governance Board (RGB)."
+            ]
+          },
+          {
+            "tag": "rgb_secretary_general",
+            "patterns": [
+            "Who is the Secretary General of RGB?",
+            "Who holds the position of Secretary General at RGB?",
+            "Can you tell me about the Secretary General of RGB?"
+            ],
+            "responses": [
+            "KALISA Edward is the Secretary General of Rwanda Governance Board (RGB)."
+            ]
+          },
+          {
+            "tag": "rgb_contact_info",
+            "patterns": [
+            "How can I contact RGB?",
+            "What is the contact information for RGB?",
+            "Can you provide me with RGB's contact details?"
+            ],
+            "responses": [
+            "You can reach RGB at 3520 or via email at info@rgb.rw. RGB's physical address is Remera-KG 178 ST Kigali."
+            ]
+          },
+          {
+            "tag": "rgb_services",
+            "patterns": [
+            "What services does RGB offer?",
+            "Can you tell me about the services provided by RGB?",
+            "What kind of services can be found on the RGB website?"
+            ],
+            "responses": [
+            "RGB offers various services, including a self-service portal, an e-recruitment portal, Umucyo, Emboni (DTMS), and a webmail. You can find more information on the RGB website."
+            ]
+          },
+          {
+            "tag": "CEO's Office",
+            "patterns": [
+            "Who works in the CEO's office",
+            "Who is in the CEO's office",
+            "Can you give me the names of staff in the CEO's office",
+            "Who is the CEO's office staff",
+            "List of staff in the CEO's office"
+            ],
+            "responses": [
+            "The following is a list of staff in the CEO's office: UMUTESI Annet - Advisor to the CEO, RUDAKEMWA Sangano - Ag. Information and Communication Specialist, BAMUREBE Grace - Strategic Engagement Specialist, KAMUGISHA Johnson - Ag. Internal Auditor."
+            ]
+          },
+          {
+            "tag": "DDAG Projects staff",
+            "patterns": [
+            "Who works in the DDAG Projects office",
+            "Who is in the DDAG Projects office",
+            "Can you give me the names of staff in the DDAG Projects office",
+            "Who is the DDAG Projects office staff",
+            "List of staff in the DDAG Projects office"
+            ],
+            "responses": [
+            "The following is a list of staff in the DDAG Projects office: HABIYONIZEYE Yvonne - Ag. Coordinator DDAG and CSOs Projects, NKULIKIYE André - Monitoring and Evaluation Specialist CSOs Project, SIFA SERAPHINA - Governance Specialist for DDAG Project, SABIITI Fred - Finance Specialist, NIYONGABO Joseph - Driver / DDAG & CSOs Project, MUGISHA Fred - JADF Project Coordinator, MINANI Faustin - Technical Advisor."
+            ]
+          },
+          {
+            "tag": "Office of DCEO",
+            "patterns": [
+            "Who works in the Office of DCEO",
+            "Who is in the Office of DCEO",
+            "Can you give me the names of staff in the Office of DCEO",
+            "Who is the Office of DCEO staff",
+            "List of staff in the Office of DCEO"
+            ],
+            "responses": [
+            "The following is a list of staff in the Office of DCEO: MUSABYEMARIYA Marie Thérèse - Administrative Assistant to the Deputy CEO."
+            ]
+          },
+          {
+            "tag": "staff_info",
+            "patterns": [
+            "who is KALISA Edward",
+            "what is the position of KALISA Edward",
+            "what is the phone number of KALISA Edward"
+            ],
+            "responses": [
+            "KALISA Edward is the Secretary General of the General Secretariat",
+            "The position of KALISA Edward is Secretary General",
+            "The phone number of KALISA Edward is 0788304357"
+            ]
+          },
+          {
+            "tag": "staff_info",
+            "patterns": [
+            "who is UWAYEZU Claudine",
+            "what is the position of UWAYEZU Claudine",
+            "what is the phone number of UWAYEZU Claudine"
+            ],
+            "responses": [
+            "UWAYEZU Claudine is a Secretary in the Central Secretariat",
+            "The position of UWAYEZU Claudine is Secretary in Central Secretariat",
+            "The phone number of UWAYEZU Claudine is 0788822129"
+            ]
+          },
+          {
+            "tag": "staff_info",
+            "patterns": [
+            "who is UWAMAHORO Marie Yvette",
+            "what is the position of UWAMAHORO Marie Yvette",
+            "what is the phone number of UWAMAHORO Marie Yvette"
+            ],
+            "responses": [
+            "UWAMAHORO Marie Yvette is the Administrative Assistant to the SG",
+            "The position of UWAMAHORO Marie Yvette is Administrative Assistant to the SG",
+            "The phone number of UWAMAHORO Marie Yvette is 0788427145"
+            ]
+          },
+          {
+            "tag": "Head of Political Parties and Civil Society Department",
+            "patterns": [
+            "Who is the head of Political Parties and Civil Society Department?",
+            "Can you tell me the head of Political Parties and Civil Society Department?"
+            ],
+            "responses": [
+            "The head of the Political Parties and Civil Society Department is KAZAIRE Judith."
+            ]
+          },
+          {
+             "tag": "Monitoring and Evaluation Division Manager",
+            "patterns": [
+            "Who is the Monitoring and Evaluation Division Manager?",
+            "Can you tell me the Monitoring and Evaluation Division Manager?"
+            ],
+            "responses": [
+            "The Monitoring and Evaluation Division Manager is MUHORACYEYE Grace Divine."
+            ]
+          },
+          {
+            "tag": "Ag. NGOs M&E Specialist",
+            "patterns": [
+            "Who is the Ag. NGOs M&E Specialist?",
+            "Can you tell me the Ag. NGOs M&E Specialist?"
+            ],
+            "responses": [
+            "The Ag. NGOs M&E Specialist is NIZEYIMANA Eugène."
+            ]
+          },
+          {
+            "tag": "FBOs and PPs M&E Specialist",
+            "patterns": [
+            "Who is the FBOs and PPs M&E Specialist?",
+            "Can you tell me the FBOs and PPs M&E Specialist?"
+            ],
+            "responses": [
+            "The FBOs and PPs M&E Specialist is KABEERA Paul."
+            ]
+          },
+          {
+            "tag": "International NGOs Monitoring and Evaluation Specialist",
+            "patterns": [
+            "Who is the International NGOs Monitoring and Evaluation Specialist?",
+            "Can you tell me the International NGOs Monitoring and Evaluation Specialist?"
+            ],
+            "responses": [
+            "The International NGOs Monitoring and Evaluation Specialist is MUTSINDASHYAKA Peter."
+            ]
+          },
+          {
+            "tag": "Registration Division Manager",
+            "patterns": [
+            "Who is the Registration Division Manager?",
+            "Can you tell me the Registration Division Manager?"
+            ],
+            "responses": [
+            "The Registration Division Manager is MUTEMBEREZI Pascal."
+            ]
+          },
+          {
+             "tag": "NGO Registration Officer",
+              "patterns": [
+              "Who is the NGO Registration Officer?",
+              "Can you tell me the NGO Registration Officer?"
+              ],
+              "responses": [
+              "The NGO Registration Officer is WIBABARA Solange."
+              ]
+          },
+          {
+            "tag": "FBOs and PPs Registration Officer",
+              "patterns": [
+                  "Who is the FBOs and PPs Registration Officer?",
+                  "Can you tell me the FBOs and PPs Registration Officer?"
+              ],
+              "responses": [
+              "The FBOs and PPs Registration Officer is UMUHOZA Perpétue."
+              ]
+            },
+            {
+            "tag": "Phone",
+            "patterns": [
+            "Can you provide phone number for {Name}",
+            "What is the phone number for {Name}",
+            "I need the phone number for {Name}",
+            "Can you give me the phone number of {Name}",
+            "Can you share the phone number of {Name}"
+            ],
+            "responses": [
+            "The phone number for {Name} is: {Phone}"
+            ] 
+          },
+          {
           "tag": "additional_information",
           "patterns": [
           "more information on ngo registration",
